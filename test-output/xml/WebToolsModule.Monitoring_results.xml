@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test-class test"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="11.055">
+  <properties />
+  
+  
+            <testcase name="login" time="6.425" classname="WebToolsModule.Monitoring" />
+                <testcase name="sqlQueryOverview" time="4.630" classname="WebToolsModule.Monitoring" />
+      
+</testsuite>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [Test-class Suite]" parallel="classes">
+  <test name="Test-class test(failed)" parallel="classes">
+    <classes>
+      <class name="customerCreation.CreateUsecase">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- customerCreation.CreateUsecase -->
+      <class name="customerChange.ChangeUsecase">
+        <methods>
+          <include name="loadingbrowser"/>
+          <include name="customerChange"/>
+        </methods>
+      </class> <!-- customerChange.ChangeUsecase -->
+    </classes>
+  </test> <!-- Test-class test(failed) -->
+</suite> <!-- Failed suite [Test-class Suite] -->

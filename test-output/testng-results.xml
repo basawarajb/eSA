@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="16745" started-at="2018-01-04T13:11:44Z" finished-at="2018-01-04T13:12:01Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="16745" started-at="2018-01-04T13:11:44Z" finished-at="2018-01-04T13:12:01Z">
+      <class name="WebToolsModule.Monitoring">
+        <test-method status="PASS" signature="browser()[pri:0, instance:WebToolsModule.Monitoring@5bfbf16f]" name="browser" is-config="true" duration-ms="9315" started-at="2018-01-04T18:41:44Z" finished-at="2018-01-04T18:41:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method status="PASS" signature="login()[pri:0, instance:WebToolsModule.Monitoring@5bfbf16f]" name="login" duration-ms="4033" started-at="2018-01-04T18:41:54Z" finished-at="2018-01-04T18:41:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="sqlQueryOverview(java.lang.CharSequence, java.lang.CharSequence)[pri:0, instance:WebToolsModule.Monitoring@5bfbf16f]" name="sqlQueryOverview" duration-ms="3369" started-at="2018-01-04T18:41:58Z" data-provider="Monitoring" finished-at="2018-01-04T18:42:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Desc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[select * from tab]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sqlQueryOverview -->
+      </class> <!-- WebToolsModule.Monitoring -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

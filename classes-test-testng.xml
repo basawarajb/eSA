@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Test-class Suite" parallel="classes" thread-count="2" >
+<listeners>
+      <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+      <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="Test-class test" >
+   <parameter name="CustomerID" value="UC444100">
+   <parameter name="PartnerNum_Input" value="118257350">
+   <parameter name="PartnerID" value="118257350">
+    <classes>
+      <class name="regressionTesting.ChangeUsecase"/>
+      <class name="WebToolsModule.Monitoring"/>
+    </classes>
+    </parameter>
+    </parameter>
+    </parameter>
+  </test>
+</suite>
